@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9D95E05C-015F-309C-A429-39C06C251ED0}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ssinharoy\Downloads\re2-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ssinharoy\Downloads\re2-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ssinharoy\Downloads\re2-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ssinharoy\Downloads\re2-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/ssinharoy/Downloads/re2-master -BC:/Users/ssinharoy/Downloads/re2-master/compile --check-stamp-file C:/Users/ssinharoy/Downloads/re2-master/compile/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTestUseLaunchers.cmake;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/ssinharoy/Downloads/re2-master -BC:/Users/ssinharoy/Downloads/re2-master/compile --check-stamp-file C:/Users/ssinharoy/Downloads/re2-master/compile/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTestUseLaunchers.cmake;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/ssinharoy/Downloads/re2-master -BC:/Users/ssinharoy/Downloads/re2-master/compile --check-stamp-file C:/Users/ssinharoy/Downloads/re2-master/compile/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTestUseLaunchers.cmake;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/ssinharoy/Downloads/re2-master -BC:/Users/ssinharoy/Downloads/re2-master/compile --check-stamp-file C:/Users/ssinharoy/Downloads/re2-master/compile/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/ssinharoy/Downloads/re2-master/CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\3.8.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CTestUseLaunchers.cmake;C:\Users\ssinharoy\Downloads\re2-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ssinharoy\Downloads\re2-master\compile\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\ZERO_CHECK.vcxproj">
+      <Project>6A697747-43E7-3AFD-B993-2E8F17CA3055</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\charclass_test.vcxproj">
+      <Project>28CE26F7-DC49-37D0-82E8-E3EA984C1EEB</Project>
+      <Name>charclass_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\compile_test.vcxproj">
+      <Project>2E9B8BDF-0E42-3913-9909-9B7004638CA7</Project>
+      <Name>compile_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\dfa_test.vcxproj">
+      <Project>A8EC57BB-FDE3-3642-90D9-B66596762486</Project>
+      <Name>dfa_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\exhaustive1_test.vcxproj">
+      <Project>C498DE6B-1361-3F59-9FAA-23E3D8A9228E</Project>
+      <Name>exhaustive1_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\exhaustive2_test.vcxproj">
+      <Project>A9FE5006-8457-3A41-84FB-38E90720CE53</Project>
+      <Name>exhaustive2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\exhaustive3_test.vcxproj">
+      <Project>53A15053-B25F-312C-8ACD-C67A518ABB4C</Project>
+      <Name>exhaustive3_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\exhaustive_test.vcxproj">
+      <Project>16303895-3E59-32DF-BAE4-D8A0E04D3952</Project>
+      <Name>exhaustive_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\filtered_re2_test.vcxproj">
+      <Project>AC336AF8-6D18-3246-98FC-976810114C20</Project>
+      <Name>filtered_re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\mimics_pcre_test.vcxproj">
+      <Project>E922906B-890E-3323-9165-44230C062AE0</Project>
+      <Name>mimics_pcre_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\parse_test.vcxproj">
+      <Project>E9C694C8-4709-33B5-B264-2AB7B27F4B1D</Project>
+      <Name>parse_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\possible_match_test.vcxproj">
+      <Project>3BD45071-49AC-359C-AAC7-899FD82CF3C0</Project>
+      <Name>possible_match_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\random_test.vcxproj">
+      <Project>A105E8BD-BC89-3490-B58A-AD4369F0CDE4</Project>
+      <Name>random_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\re2.vcxproj">
+      <Project>B8AFA4B2-283A-301B-BB6E-FBF4B463A001</Project>
+      <Name>re2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\re2_arg_test.vcxproj">
+      <Project>2D98529A-D80F-3F92-84AE-376082CC5FD9</Project>
+      <Name>re2_arg_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\re2_test.vcxproj">
+      <Project>F5C3A330-AFFD-31FA-BE61-A28774429241</Project>
+      <Name>re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\regexp_benchmark.vcxproj">
+      <Project>6B7B0E3A-896E-31F1-85BB-3211DD614C8E</Project>
+      <Name>regexp_benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\regexp_test.vcxproj">
+      <Project>27F73F16-91AD-3AB0-9149-A07523E3C027</Project>
+      <Name>regexp_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\required_prefix_test.vcxproj">
+      <Project>D835DE0D-DDBD-37EC-B387-053DCAA9C903</Project>
+      <Name>required_prefix_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\search_test.vcxproj">
+      <Project>3DBDF5C4-9842-3F2A-9186-14BB0BE9BDD4</Project>
+      <Name>search_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\set_test.vcxproj">
+      <Project>348E8463-802B-35AC-8277-3D10CBD33F3C</Project>
+      <Name>set_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\simplify_test.vcxproj">
+      <Project>C0CEB146-75E1-3B96-AA3F-307145262596</Project>
+      <Name>simplify_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\string_generator_test.vcxproj">
+      <Project>5E686E3F-72BE-36E4-89A9-8488278D1F55</Project>
+      <Name>string_generator_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ssinharoy\Downloads\re2-master\compile\testing.vcxproj">
+      <Project>D71418D1-5C76-3BE3-AC4F-819794A945E7</Project>
+      <Name>testing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1172 @@
+﻿Build started 28/4/2017 5:02:19 PM.
+     1>Project "C:\Users\ssinharoy\Downloads\re2-master\compile\re2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\ssinharoy\Downloads\re2-master" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"re2.dir\Debug\\" /Fd"re2.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Users\ssinharoy\Downloads\re2-master\re2\bitstate.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\compile.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\dfa.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\filtered_re2.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\mimics_pcre.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\nfa.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\onepass.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\parse.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\perl_groups.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\prefilter.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\prefilter_tree.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\prog.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\re2.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\regexp.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\set.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\simplify.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\stringpiece.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\tostring.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\unicode_casefold.cc" "C:\Users\ssinharoy\Downloads\re2-master\re2\unicode_groups.cc" "C:\Users\ssinharoy\Downloads\re2-master\util\strutil.cc"
+         bitstate.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         compile.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         dfa.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(132): error C2065: '_Lockit' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(132): error C2146: syntax error : missing ';' before identifier '_Lock'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(132): error C3861: '_Lock': identifier not found
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(142): error C2065: '_Lockit' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(142): error C2146: syntax error : missing ';' before identifier '_Lock'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(142): error C3861: '_Lock': identifier not found
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(152): error C2065: '_Lockit' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(152): error C2146: syntax error : missing ';' before identifier '_Lock'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(152): error C3861: '_Lock': identifier not found
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(163): error C2065: '_Lockit' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(163): error C2146: syntax error : missing ';' before identifier '_Lock'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(163): error C3861: '_Lock': identifier not found
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(218): error C2065: '_Lockit' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(218): error C2146: syntax error : missing ';' before identifier '_Lock'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(218): error C3861: '_Lock': identifier not found
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(231): error C2065: '_Lockit' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(231): error C2146: syntax error : missing ';' before identifier '_Lock'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(231): error C3861: '_Lock': identifier not found
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(263): error C2061: syntax error : identifier '_Identity'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(263) : see reference to class template instantiation 'stlp_std::_Get_unchecked_type<_Ty>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(263): error C2649: 'typename' : is not a 'class'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(263): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(268): error C2061: syntax error : identifier '_Identity'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(268) : see reference to class template instantiation 'stlp_std::_Is_checked_helper<_Ty>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(268): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(268): error C2649: 'typename' : is not a 'class'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(268): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(296): error C2011: 'stlp_std::input_iterator_tag' : 'struct' type redefinition
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(51) : see declaration of 'stlp_std::input_iterator_tag'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(304): error C2011: 'stlp_std::output_iterator_tag' : 'struct' type redefinition
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(52) : see declaration of 'stlp_std::output_iterator_tag'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(309): error C2011: 'stlp_std::forward_iterator_tag' : 'struct' type redefinition
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(53) : see declaration of 'stlp_std::forward_iterator_tag'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(314): error C2011: 'stlp_std::bidirectional_iterator_tag' : 'struct' type redefinition
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(54) : see declaration of 'stlp_std::bidirectional_iterator_tag'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(319): error C2011: 'stlp_std::random_access_iterator_tag' : 'struct' type redefinition
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(55) : see declaration of 'stlp_std::random_access_iterator_tag'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(332): warning C4348: 'stlp_std::iterator' : redefinition of default parameter : parameter 3
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(59) : see declaration of 'stlp_std::iterator'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(332): warning C4348: 'stlp_std::iterator' : redefinition of default parameter : parameter 4
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(59) : see declaration of 'stlp_std::iterator'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(332): warning C4348: 'stlp_std::iterator' : redefinition of default parameter : parameter 5
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(59) : see declaration of 'stlp_std::iterator'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(345): error C2953: 'stlp_std::iterator' : class template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(59) : see declaration of 'stlp_std::iterator'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(377): error C2953: 'stlp_std::iterator_traits' : class template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(147) : see declaration of 'stlp_std::iterator_traits'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(388): error C2953: 'stlp_std::iterator_traits' : class template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(147) : see declaration of 'stlp_std::iterator_traits'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(399): error C2953: 'stlp_std::iterator_traits' : class template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(147) : see declaration of 'stlp_std::iterator_traits'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(429): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(432) : see reference to class template instantiation 'stlp_std::_Ptr_cat_helper<_Elem,_Elem>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(429): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(431): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(698): error C2995: 'void stlp_std::advance(_InputIterator &,_Distance)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(515) : see declaration of 'stlp_std::advance'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(767): error C2995: 'void stlp_std::_Distance(_InputIterator,_InputIterator,_Dist &)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator_base.h(373) : see declaration of 'stlp_std::_Distance'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1111): error C2953: 'stlp_std::reverse_iterator' : class template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_iterator.h(47) : see declaration of 'stlp_std::reverse_iterator'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1115): error C3203: 'reverse_iterator' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1113): error C3211: 'stlp_std::_Is_checked_helper<int>' : explicit specialization is using partial specialization syntax, use template <> instead
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1115) : see declaration of 'stlp_std::_Is_checked_helper<int>'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1278): error C2065: 'initializer_list' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1278): error C2065: '_Ilist' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1281): error C2433: 'rbegin' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1281): error C2365: 'stlp_std::rbegin' : redefinition; previous definition was 'function'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1281): error C2998: 'stlp_std::reverse_iterator stlp_std::rbegin' : cannot be a template definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1284): error C2065: 'initializer_list' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1284): error C2065: '_Ilist' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1287): error C2433: 'rend' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1287): error C2365: 'stlp_std::rend' : redefinition; previous definition was 'function'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(1287): error C2998: 'stlp_std::reverse_iterator stlp_std::rend' : cannot be a template definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2104): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2108): error C2995: '_OutIt stlp_std::_Copy_impl(_InIt,_InIt,_OutIt)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2062) : see declaration of 'stlp_std::_Copy_impl'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2114): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2134): error C2995: '_OutputIter stlp_std::copy(_InputIter,_InputIter,_OutputIter)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(291) : see declaration of 'stlp_std::copy'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2268): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2272): error C2995: '_OutIt stlp_std::_Copy_n(_InIt,_Diff,_OutIt)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2197) : see declaration of 'stlp_std::_Copy_n'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2279): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2385): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2389): error C2995: '_BidIt2 stlp_std::_Copy_backward(_BidIt1,_BidIt1,_BidIt2)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2363) : see declaration of 'stlp_std::_Copy_backward'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2395): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2410): error C2995: '_OutputIter stlp_std::copy_backward(_InputIter,_InputIter,_OutputIter)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(328) : see declaration of 'stlp_std::copy_backward'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2479): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2483): error C2995: '_OutIt stlp_std::_Move(_InIt,_InIt,_OutIt)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2437) : see declaration of 'stlp_std::_Move'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2489): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2566): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2570): error C2995: '_BidIt2 stlp_std::_Move_backward(_BidIt1,_BidIt1,_BidIt2)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2544) : see declaration of 'stlp_std::_Move_backward'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2576): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2624): error C2995: 'void stlp_std::fill(_ForwardIter,_ForwardIter,const _Tp &)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(449) : see declaration of 'stlp_std::fill'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2691): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2695): error C2995: '_OutIt stlp_std::_Fill_n(_OutIt,_Diff,const _Ty &)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2630) : see declaration of 'stlp_std::_Fill_n'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2702): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2774): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2784): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2788): error C2995: 'bool stlp_std::_Equal1(_InIt1,_InIt1,_InIt2)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2773) : see declaration of 'stlp_std::_Equal1'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2799): error C2995: 'bool stlp_std::equal(_InputIter1,_InputIter1,_InputIter2)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(551) : see declaration of 'stlp_std::equal'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2843): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2854): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2858): error C2995: 'bool stlp_std::_Equal2(_InIt1,_InIt1,_InIt2,_Pr)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2842) : see declaration of 'stlp_std::_Equal2'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2870): error C2995: 'bool stlp_std::equal(_InputIter1,_InputIter1,_InputIter2,_BinaryPredicate)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(563) : see declaration of 'stlp_std::equal'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2931): error C2995: 'bool stlp_std::lexicographical_compare(_InputIter1,_InputIter1,_InputIter2,_InputIter2)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(578) : see declaration of 'stlp_std::lexicographical_compare'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2959): error C2995: 'bool stlp_std::lexicographical_compare(_InputIter1,_InputIter1,_InputIter2,_InputIter2,_Compare)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(582) : see declaration of 'stlp_std::lexicographical_compare'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2964): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2970): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2976): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2979): error C2995: 'bool stlp_std::_Within_limits(const _Ty &)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2970) : see declaration of 'stlp_std::_Within_limits'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2983): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2986): error C2995: 'bool stlp_std::_Within_limits(const _Ty &)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2964) : see declaration of 'stlp_std::_Within_limits'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2990): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3012): error C2061: syntax error : identifier 'true_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3023): error C2061: syntax error : identifier 'false_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3029): error C2995: '_InIt stlp_std::_Find(_InIt,_InIt,const _Ty &)' : function template has already been defined
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3012) : see declaration of 'stlp_std::_Find'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3055): error C2995: '_InputIter stlp_std::find(_InputIter,_InputIter,const _Tp &)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algobase.h(667) : see declaration of 'stlp_std::find'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3169): error C2995: 'void stlp_std::reverse(_BidirectionalIter,_BidirectionalIter)' : function template has already been defined
+                 E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_algo.h(332) : see declaration of 'stlp_std::reverse'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3255): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3327) : see reference to class template instantiation 'stlp_std::_Rng_from_urng<_Diff,_Urng>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3255): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3255): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3258): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3258): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3259): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3293): error C2146: syntax error : missing ';' before identifier '_Get_all_bits'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(3293): fatal error C1003: error count exceeds 100; stopping compilation
+         filtered_re2.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         mimics_pcre.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         nfa.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         onepass.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Users\ssinharoy\Downloads\re2-master\util/sparse_set.h(165): error C2143: syntax error : missing ';' before '<'
+                 C:\Users\ssinharoy\Downloads\re2-master\util/sparse_set.h(167) : see reference to class template instantiation 're2::SparseSetT<Value>' being compiled
+     1>C:\Users\ssinharoy\Downloads\re2-master\util/sparse_set.h(165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Users\ssinharoy\Downloads\re2-master\util/sparse_set.h(165): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         parse.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         perl_groups.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         prefilter.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         prefilter_tree.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Users\ssinharoy\Downloads\re2-master\util/sparse_array.h(315): error C2143: syntax error : missing ';' before '<'
+                 C:\Users\ssinharoy\Downloads\re2-master\util/sparse_array.h(317) : see reference to class template instantiation 're2::SparseArray<Value>' being compiled
+     1>C:\Users\ssinharoy\Downloads\re2-master\util/sparse_array.h(315): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Users\ssinharoy\Downloads\re2-master\util/sparse_array.h(315): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         prog.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\type_traits(244): error C2039: 'size_t' : is not a member of 'std'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\type_traits(453): error C2039: 'size_t' : is not a member of 'std'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\type_traits(471): error C2039: 'size_t' : is not a member of 'std'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         re2.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         regexp.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         set.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(37) : see reference to class template instantiation 'stlp_std::_Safe_multX<_Ax,_Bx,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2275: 'stlp_std::_Safe_multX<_Ax,_Bx,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(35): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: '_Always_false' : undeclared identifier
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(76) : see reference to class template instantiation 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2275: 'stlp_std::_Safe_addX<_Ax,_Bx,false,false>' : illegal use of this type as an expression
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(74): error C2065: 'value' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(248): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(252) : see reference to class template instantiation 'stlp_std::ratio_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(258): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(262) : see reference to class template instantiation 'stlp_std::ratio_not_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2143: syntax error : missing ';' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(281) : see reference to class template instantiation 'stlp_std::_Ratio_less<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(280): error C2238: unexpected token(s) preceding ';'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(296): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(300) : see reference to class template instantiation 'stlp_std::ratio_less_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(306): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(310) : see reference to class template instantiation 'stlp_std::ratio_greater<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(316): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ratio(320) : see reference to class template instantiation 'stlp_std::ratio_greater_equal<_R1,_R2>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(24): error C2143: syntax error : missing ',' before '<'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(26) : see reference to class template instantiation 'stlp_std::chrono::treat_as_floating_point<_Rep>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2433: 'enable_if' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2988: unrecognizable template declaration/definition
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2065: '_To' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(76): error C2923: 'stlp_std::chrono::_Is_duration' : '_To' is not a valid template type argument for parameter '_Ty'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(77): error C2039: 'type' : is not a member of '`global namespace''
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Rep' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2065: '_Period' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Rep' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(78): error C2923: 'stlp_std::chrono::duration' : '_Period' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2143: syntax error : missing ';' before '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316): error C2059: syntax error : '<'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(317): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(318): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2143: syntax error : missing ';' before '{'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(319): error C2447: '{' : missing function header (old-style formal list?)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(316) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(334): error C2976: 'stlp_std::common_type' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(342): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2143: syntax error : missing ';' before '+'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(346): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(347): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(353): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(359): error C2039: 'type' : is not a member of 'stlp_std::common_type'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(331) : see declaration of 'stlp_std::common_type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2143: syntax error : missing ';' before '-'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2433: 'type' : 'inline' not permitted on data declarations
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(362): error C2374: 'stlp_std::chrono::type' : redefinition; multiple initialization
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(345) : see declaration of 'stlp_std::chrono::type'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Rep1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2065: '_Period1' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Rep1' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(363): error C2923: 'stlp_std::chrono::duration' : '_Period1' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Rep2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2065: '_Period2' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Rep2' is not a valid template type argument for parameter '_Rep'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(364): error C2923: 'stlp_std::chrono::duration' : '_Period2' is not a valid template type argument for parameter '_Period'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\chrono(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         simplify.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         stringpiece.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         tostring.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         unicode_casefold.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         unicode_groups.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         Generating Code...
+         Compiling...
+         strutil.cc
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(497): error C2084: function 'float hypot(float,float) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1081) : see previous definition of 'hypot'
+     1>E:\CTELibraries\Libraries\STLPort\STLport-5.2.1\stlport\stl/_cmath.h(498): error C2084: function 'long double hypot(long double,long double) throw()' already has a body
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\../include/math.h(1197) : see previous definition of 'hypot'
+         Generating Code...
+     1>Done Building Project "C:\Users\ssinharoy\Downloads\re2-master\compile\re2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.24
